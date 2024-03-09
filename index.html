@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>SimulateTuSalario</title>
+</head>
+<body>
+    <header class="encabezado">
+        <h1>SimulateTuSalario</h1>
+    </header>
+
+    <div class="calculadora">
+        <input type="number" id="salarioNominal" placeholder="Ingrese su salario nominal">
+
+        <div>
+            <button id="calcularTotalImpuestos">Calcular Total de Impuestos</button>
+            <div id="resultadoTotalImpuestos">Total de impuestos pagados: </div>
+        </div>
+
+        <div>
+            <button id="calcularSalarioLiquido">Calcular Salario Líquido</button>
+            <div id="resultadoSalarioLiquido">Su salario líquido es: $</div>
+        </div>
+    
+        <div>
+            <select id="impuestoSelect">
+                <option value="">Seleccione un impuesto</option>
+            </select>
+            <div><button id="calcularImpuesto">Calcular Impuesto</button></div>
+        </div>
+        <div id="resultadoImpuesto"></div>
+    </div>
+
+    <footer class="pieDePagina">
+        <div>
+            <p>SimulateTuSalario</p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+<body>
+</html>
+ 

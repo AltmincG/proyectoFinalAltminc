@@ -1,0 +1,42 @@
+/* colores a usar 
+.color1 {color: #121b2c;}
+.color2 {color: #123a4a;}
+.color3 {color: #12576f;}
+.color4 {color: #158398;}
+.color5 {color: #1dbcc3;}
+*/
+/* ESTILO DEL HEADER*/
+
+.encabezado{
+    background-color: #12576f;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin-left: 0%;
+    margin-right: 0%;
+    height: 10%;
+    width: 100%;
+}
+
+/* ESTILO DEL BODY */
+body{
+    background-color: #158398;
+}
+.calculadora{
+    padding-top: 10%;
+    text-align: center;
+    color: white;
+}
+/* ESTILO DEL FOOTER */
+.pieDePagina{
+    background-color: #123a4a;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 10%;
+    width: 100%;
+    text-align: center;
+}
